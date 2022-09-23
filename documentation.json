@@ -22,7 +22,7 @@
     "components": [
         {
             "name": "AppComponent",
-            "id": "component-AppComponent-eab8ae28699d57bb2f0092869ec908b776aebb170bcf350de2eadbbeafb6a20f65b8f3d0c8498a5d77ecfc9396d2b98c30b336e18b0468dbb6a8ea45e94c9d37",
+            "id": "component-AppComponent-d30a2821cb3bdc7306d8c63387de3e58a3de1ac6180876c2bc975adb8c7beedf206c73646bf7d86db2a66565b12d6465f63eadbdeff8a067939fc72989b048b4",
             "file": "src/app/app.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -49,16 +49,16 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-root',\r\n  templateUrl: './app.component.html',\r\n  styleUrls: ['./app.component.css']\r\n})\r\nexport class AppComponent {\r\n}\r\n\r\n\r\n/*\r\nCopyright Google LLC. All Rights Reserved.\r\nUse of this source code is governed by an MIT-style license that\r\ncan be found in the LICENSE file at https://angular.io/license\r\n*/",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.css']\n})\nexport class AppComponent {\n}\n\n\n/*\nCopyright Google LLC. All Rights Reserved.\nUse of this source code is governed by an MIT-style license that\ncan be found in the LICENSE file at https://angular.io/license\n*/",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": "\r\n\r\n\r\n/*\r\nCopyright Google LLC. All Rights Reserved.\r\nUse of this source code is governed by an MIT-style license that\r\ncan be found in the LICENSE file at https://angular.io/license\r\n*/",
+                    "data": "\n\n\n/*\nCopyright Google LLC. All Rights Reserved.\nUse of this source code is governed by an MIT-style license that\ncan be found in the LICENSE file at https://angular.io/license\n*/",
                     "styleUrl": "./app.component.css"
                 }
             ],
             "stylesData": "",
-            "templateData": "\r\n\r\n<!-- \r\nCopyright Google LLC. All Rights Reserved.\r\nUse of this source code is governed by an MIT-style license that\r\ncan be found in the LICENSE file at https://angular.io/license\r\n-->"
+            "templateData": "\n\n<!-- \nCopyright Google LLC. All Rights Reserved.\nUse of this source code is governed by an MIT-style license that\ncan be found in the LICENSE file at https://angular.io/license\n-->"
         },
         {
             "name": "ButtonComponent",
@@ -341,13 +341,13 @@
     "modules": [
         {
             "name": "AppModule",
-            "id": "module-AppModule-481d83e14a49d8e2095b226ff6e29df86cfc70454ce013ebacc9b9a08171102315604746bf15c7ebeeff44eb28d106f35e4ca4c7c4751dddf9a9a5a082933871",
+            "id": "module-AppModule-bdf4e76ea7575a80047aedeb5da21a65ca555b52d9448ffb8356a208c6ccc02501241582213c1741aa72330779a7d3405cf30aac1aa4e8c1655f69e7d364f0e0",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/app.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\r\nimport { BrowserModule } from '@angular/platform-browser';\r\nimport { RouterModule } from '@angular/router';\r\nimport { ReactiveFormsModule } from '@angular/forms';\r\n\r\nimport { AppComponent } from './app.component';\r\n\r\n@NgModule({\r\n  imports: [\r\n    BrowserModule,\r\n    ReactiveFormsModule,\r\n    RouterModule.forRoot([\r\n      { path: '', component: AppComponent },\r\n    ])\r\n  ],\r\n  declarations: [\r\n    AppComponent\r\n  ],\r\n  bootstrap: [\r\n    AppComponent\r\n  ]\r\n})\r\nexport class AppModule { }\r\n\r\n\r\n/*\r\nCopyright Google LLC. All Rights Reserved.\r\nUse of this source code is governed by an MIT-style license that\r\ncan be found in the LICENSE file at https://angular.io/license\r\n*/",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\nimport { RouterModule } from '@angular/router';\nimport { ReactiveFormsModule } from '@angular/forms';\n\nimport { AppComponent } from './app.component';\n\n@NgModule({\n  imports: [\n    BrowserModule,\n    ReactiveFormsModule,\n    RouterModule.forRoot([\n      { path: '', component: AppComponent },\n    ])\n  ],\n  declarations: [\n    AppComponent\n  ],\n  bootstrap: [\n    AppComponent\n  ]\n})\nexport class AppModule { }\n\n\n/*\nCopyright Google LLC. All Rights Reserved.\nUse of this source code is governed by an MIT-style license that\ncan be found in the LICENSE file at https://angular.io/license\n*/",
             "children": [
                 {
                     "type": "providers",
@@ -404,7 +404,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "object",
-                "defaultValue": "{\r\n  production: true\r\n}"
+                "defaultValue": "{\n  production: true\n}"
             },
             {
                 "name": "environment",
@@ -414,7 +414,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "object",
-                "defaultValue": "{\r\n  production: false\r\n}"
+                "defaultValue": "{\n  production: false\n}"
             },
             {
                 "name": "Large",
@@ -570,7 +570,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "object",
-                    "defaultValue": "{\r\n  production: true\r\n}"
+                    "defaultValue": "{\n  production: true\n}"
                 }
             ],
             "src/environments/environment.ts": [
@@ -582,7 +582,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "object",
-                    "defaultValue": "{\r\n  production: false\r\n}"
+                    "defaultValue": "{\n  production: false\n}"
                 }
             ],
             "src/stories/Button.stories.ts": [
